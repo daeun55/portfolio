@@ -11,15 +11,18 @@ function randomString(){
     let stringArr = ["Developer", "DAEUN KIM", "김다은"];
     let selectString = stringArr[Math.floor(Math.random()*stringArr.length)];
     let selectStringArr = selectString.split("");
+    // 문자열을 단어 하나하나로 분해 
 
     return selectStringArr;
 }
 
-
+//리셋
 function resetTyping(){
     target.textContent="";
     dynamic(randomString());
 }
+
+// 분해된 텍스트 출력 함수
 function dynamic(randomArr){
     console.log(randomArr);
     if(randomArr.length>0){
@@ -33,8 +36,6 @@ function dynamic(randomArr){
 }
 
 dynamic (randomString());
-console.log(selectString);
-console.log(selectStringArr);
 
 
 //커서 깜빡임 
@@ -43,7 +44,7 @@ function blink(){
 }
 setInterval(blink, 500);
 
-//메뉴 섹션 셀렉터 함수
+
 const skBtn = document.querySelector(".sk");
 skBtn.addEventListener("click", () => {
   console.log("button click");
