@@ -232,16 +232,20 @@ button {
   margin-bottom: 300px;
 }
 
-#about > p {
-  max-width: 900px;
-  margin-bottom: 90px;
-  font-size: 20px;
+#about > article{
+  
+    max-width: 900px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    color: #5f5f5f;
+    text-align: center;
 }
 
 #skills {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .skills__category {
@@ -321,4 +325,6 @@ button {
   margin-top: 16px;
   margin-bottom: 40px;
 }
+
+
 
