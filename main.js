@@ -8,7 +8,7 @@ function randomString(){
     let stringArr = ["Developer", "MOBILE", "FRONT-END"];
     let selectString = stringArr[Math.floor(Math.random()*stringArr.length)];
     let selectStringArr = selectString.split("");
-    // 문자열을 단어 하나하나로 분해 
+    // 문자열을 쪼갬 
 
     return selectStringArr;
 }
