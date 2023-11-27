@@ -1,11 +1,11 @@
 "use strict";
 let target = document.querySelector("#dynamic");
-let stringArr = ["Developer", "MOBILE", "FRONT-END"];
+let stringArr = ["2100937 김다은" ];
 let selectString = stringArr[Math.floor(Math.random()*stringArr.length)];
 let selectStringArr = selectString.split("");
 
 function randomString(){
-    let stringArr = ["Developer", "MOBILE", "FRONT-END"];
+    let stringArr = ["2100937 김다은" ];
     let selectString = stringArr[Math.floor(Math.random()*stringArr.length)];
     let selectStringArr = selectString.split("");
     // 문자열을 쪼갬 
